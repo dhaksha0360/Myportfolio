@@ -1,0 +1,2 @@
+import { personal } from "@/data/personal";
+export function Footer() { return <footer className="border-t border-background/10 bg-foreground text-background"><div className="mx-auto flex max-w-7xl flex-col gap-3 px-5 py-7 text-sm text-background/60 sm:flex-row sm:items-center sm:justify-between sm:px-8"><p>© {new Date().getFullYear()} {personal.name}. {personal.title}.</p><p>Designed and developed with Next.js, TypeScript and Tailwind CSS.</p></div></footer>; }

@@ -1,0 +1,5 @@
+import { experiences } from "@/data/experience";
+import { Badge } from "@/components/ui/badge";
+import { Reveal } from "@/components/reveal";
+import { SectionHeading } from "@/components/section-heading";
+export function Experience() { if (!experiences.length) return null; return <section id="experience" className="section-shell border-t border-border"><SectionHeading eyebrow="Experience" title="Professional experience." />{experiences.map((item) => <Reveal key={`${item.company}-${item.role}`}><article className="grid border-t border-border py-8 md:grid-cols-[1fr_2fr]"><div><h3 className="font-semibold">{item.role}</h3><p className="text-sm text-muted-foreground">{item.company}<br />{item.period} · {item.location}</p></div><div><ul className="space-y-2 text-sm leading-6 text-muted-foreground">{item.description.map((line) => <li key={line}>— {line}</li>)}</ul><div className="mt-4 flex flex-wrap gap-2">{item.technologies.map((tech) => <Badge key={tech}>{tech}</Badge>)}</div></div></article></Reveal>)}</section>; }

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://portfolio.example.com</loc>
+<lastmod>2026-08-18T08:24:18.688Z</lastmod>
+</url>
+<url>
+<loc>https://portfolio.example.com/projects/career-ai</loc>
+<lastmod>2026-08-18T08:24:18.689Z</lastmod>
+</url>
+<url>
+<loc>https://portfolio.example.com/projects/staynest</loc>
+<lastmod>2026-08-18T08:24:18.689Z</lastmod>
+</url>
+<url>
+<loc>https://portfolio.example.com/projects/messaging-platform</loc>
+<lastmod>2026-08-18T08:24:18.689Z</lastmod>
+</url>
+<url>
+<loc>https://portfolio.example.com/projects/project-management</loc>
+<lastmod>2026-08-18T08:24:18.689Z</lastmod>
+</url>
+</urlset>
