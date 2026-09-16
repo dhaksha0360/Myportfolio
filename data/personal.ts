@@ -1,13 +1,14 @@
 export const personal = {
-  name: "Dhaksha",
-  initials: "DK",
+  name: "Dhakshajini Thamilselvan",
+  initials: "DT",
   title: "Associate Software Engineer",
   secondaryTitle: "Full-Stack Developer & ML Enthusiast",
-  email: "",
-  github: "",
-  linkedin: "",
+  email: "tdhakshajini@gmail.com",
+  phone: "+94 76 351 6280",
+  github: "https://github.com/dhaksha0360",
+  linkedin: "https://www.linkedin.com/in/dhakshajini-thamilselvan-948269287/",
   location: "Sri Lanka",
   cv: "",
   summary:
-    "I build thoughtful, scalable software across modern web stacks and machine learning, turning complex requirements into clear, dependable experiences.",
+    "Full-stack software engineer building modern web and mobile applications with React, Next.js, Laravel, React Native, and machine learning.",
 };

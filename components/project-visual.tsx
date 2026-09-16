@@ -1,5 +1,7 @@
+import Image from "next/image";
 import { cn } from "@/lib/utils";
-export function ProjectVisual({ tone, compact = false }: { tone: string; compact?: boolean }) {
+export function ProjectVisual({ tone, image, compact = false }: { tone: string; image?: string; compact?: boolean }) {
+  if (image) return <div className={cn("relative overflow-hidden", compact ? "aspect-[16/10]" : "aspect-[16/9]")}><Image src={image} alt="" fill sizes="(max-width: 1024px) 100vw, 50vw" className="object-cover" /></div>;
   return <div className={cn("project-visual relative overflow-hidden p-5", `tone-${tone}`, compact ? "aspect-[16/10]" : "aspect-[16/9]")} aria-hidden="true">
     <div className="absolute inset-x-[10%] top-[14%] h-[76%] border border-white/25 bg-[#101419]/90 shadow-2xl">
       <div className="flex h-9 items-center gap-1.5 border-b border-white/10 px-3"><i /><i /><i /></div>

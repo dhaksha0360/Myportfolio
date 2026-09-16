@@ -1,11 +1,1 @@
-{
-  "version": 4,
-  "routes": {},
-  "dynamicRoutes": {},
-  "notFoundRoutes": [],
-  "preview": {
-    "previewModeId": "1a16ae21efc97876c25e0bca6d975384",
-    "previewModeSigningKey": "ec291a6f2cd588901f2ead2bff2d635a1b8d4ce7e816bf6f9ddab30a83e3148a",
-    "previewModeEncryptionKey": "2ae27ad3cbd02020184f6f4c5935b6722eed8fd9a2bbfdf8512c37e0a55eb41a"
-  }
-}
+{"version":4,"routes":{"/projects/staynest":{},"/projects/career-ai":{},"/projects/brightnest-cleaning":{},"/projects/infinitwizard":{},"/projects/bookalizer":{},"/projects/blood-bond":{},"/projects/food-ordering":{}},"dynamicRoutes":{"/projects/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":false,"fallbackRevalidate":false,"fallbackSourceRoute":"/projects/[slug]","routeRegex":"^\\/projects\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"bac3ecc31e8a2ec89dc328b0283e3dfe","previewModeSigningKey":"9d89e779be432c8645114632888bea8a3f88433185a1aa3e3d1f83b1b9f765a3","previewModeEncryptionKey":"a6a30c3afa5aeb82f1eedb37cde205280b0f8f9c91916fb99751ba4077f8f05e"}}
